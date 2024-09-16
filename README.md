@@ -11,6 +11,28 @@ Below, we'll show you how to achieve both with tools from Haize Labs. We are ope
 
 ![Mongo-Haize](Mongo-Haize-RBAC.jpg)
 
+## Local Setup
+
+To set up the project, follow the below steps:
+
+1. **Conda Env**:
+
+    ```sh
+    conda create -n secure_rag python=3.10
+    conda activate secure_rag
+    ```
+
+3. **Install the Package**:
+
+    ```sh
+    pip install .
+
+    # or if you want, install with dev dependencies
+    pip install -e .
+    ```
+
+This will install all the dependencies and make the `secure_rag` script available for use.
+
 ## Rudiments
 
 ### Defining Roles
