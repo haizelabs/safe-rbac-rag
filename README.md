@@ -9,7 +9,7 @@ Below, we'll show you how to achieve both with tools from Haize Labs. We are ope
 
 ***To get started with Haize detectors, please reach out to `contact@haizelabs.com` :)***
 
-![Mongo-Haize](Mongo-Haize-RBAC.jpg)
+![Mongo-Haize](src/figures/Mongo-Haize-RBAC.jpg)
 
 ## Local Setup
 
