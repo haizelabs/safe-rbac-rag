@@ -3,9 +3,9 @@ import time
 from bson.objectid import ObjectId
 from dotenv import load_dotenv
 from openai import OpenAI
-from src.roles import Role
-from src.utils import embed_documents, get_embedding, get_mongodb_client
-from src._types import TextAndRoles, NumpyArray, ToUpload, RetrievedObject
+from src.rbac_rag.roles import Role
+from src.rbac_rag.utils import embed_documents, get_embedding, get_mongodb_client
+from src.rbac_rag._types import TextAndRoles, NumpyArray, ToUpload, RetrievedObject
 
 load_dotenv(override=True)
 

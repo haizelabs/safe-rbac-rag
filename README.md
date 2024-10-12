@@ -9,7 +9,7 @@ Below, we'll show you how to achieve both with tools from Haize Labs. We are ope
 
 ***To get started with Haize detectors, please reach out to `contact@haizelabs.com` :)***
 
-![Mongo-Haize](src/figures/Mongo-Haize-RBAC.jpg)
+![Mongo-Haize](src/rbac_rag/figures/Mongo-Haize-RBAC.jpg)
 
 ## Local Setup
 
@@ -25,13 +25,13 @@ To set up the project, follow the below steps:
 3. **Install the Package**:
 
     ```sh
-    pip install .
+    pip install rbac-rag
 
     # or if you want, install with dev dependencies
     pip install -e .
     ```
 
-This will install all the dependencies and make the `secure_rag` script available for use.
+This will install all dependencies and make the `secure_rag` contents available for use.
 
 ## Rudiments
 

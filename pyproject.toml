@@ -3,9 +3,9 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "secure_rag"
-version = "0.1.0"
-description = "Simple, Safe, and Secure RAG"
+name = "rbac_rag"
+version = "1.0.0"
+description = "Simple, Safe, and Secure RAG from Haize Labs"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -18,4 +18,4 @@ dependencies = [
 ]
 
 [project.scripts]
-secure_rag = "secure_rag:main"
+rbac_rag = "secure_rag:main"
