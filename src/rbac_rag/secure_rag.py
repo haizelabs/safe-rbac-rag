@@ -3,10 +3,10 @@ import requests
 import warnings
 from dotenv import load_dotenv
 from openai import OpenAI
-from rbac_manager import RBACManager
-from roles import Role
-from utils import get_embedding
-from _types import RetrievedObject
+from src.rbac_rag.rbac_manager import RBACManager
+from src.rbac_rag.roles import Role
+from src.rbac_rag.utils import get_embedding
+from src.rbac_rag._types import RetrievedObject
 
 load_dotenv(override=True)
 
